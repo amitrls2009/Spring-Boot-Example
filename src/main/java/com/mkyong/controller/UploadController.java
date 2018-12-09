@@ -23,6 +23,8 @@ public class UploadController {
         return "upload";
     }
 
+    
+    
     @PostMapping("/upload") // //new annotation since 4.3
     public String singleFileUpload(@RequestParam("file") MultipartFile file,
                                    RedirectAttributes redirectAttributes) {
