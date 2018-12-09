@@ -18,6 +18,7 @@ public class SpringBootWebApplication {
     }
 
     //Tomcat large file upload connection reset
+    
     //http://www.mkyong.com/spring/spring-file-upload-and-connection-reset-issue/
     @Bean
     public TomcatEmbeddedServletContainerFactory tomcatEmbedded() {
